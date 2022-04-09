@@ -3,7 +3,7 @@ commands:
   print_pipeline_id:
     description: "THE PROPOSED COMMAND WILL PRINT THE ID OF MY WORKFLOW FROM A JOB"
     steps:
-      - run: echo << $CIRCLE_WORKFLOW_ID >>
+      - run: echo $CIRCLE_WORKFLOW_ID
 
 jobs:
   
